@@ -1,0 +1,31 @@
+.checkout-page {
+    padding: var(--spacing-xxl) 0;
+}
+
+.checkout-layout {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: var(--spacing-xl);
+}
+
+.shipping-info h2,
+.order-review h2 {
+    margin-bottom: var(--spacing-lg);
+}
+
+.summary-item {
+    margin-bottom: var(--spacing-sm);
+    color: var(--text-muted);
+}
+
+.order-review .total {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+@media (max-width: 900px) {
+    .checkout-layout {
+        grid-template-columns: 1fr;
+    }
+}

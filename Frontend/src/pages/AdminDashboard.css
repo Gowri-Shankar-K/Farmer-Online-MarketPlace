@@ -1,0 +1,21 @@
+.admin-dashboard {
+    padding: var(--spacing-xl) 0;
+}
+
+.pending-item {
+    margin-bottom: var(--spacing-md);
+}
+
+.btn-sm {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+.pending-item h3 {
+    margin-bottom: var(--spacing-xs);
+}
+
+.pending-item p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}

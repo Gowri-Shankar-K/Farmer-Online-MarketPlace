@@ -1,0 +1,82 @@
+.navbar {
+    background: white;
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--primary-dark);
+}
+
+.logo span {
+    color: var(--primary-color);
+}
+
+.nav-links {
+    display: flex;
+    gap: var(--spacing-lg);
+}
+
+.nav-links a {
+    font-weight: 500;
+    color: var(--text-muted);
+}
+
+.nav-links a.active {
+    color: var(--primary-color);
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+}
+
+.action-item {
+    position: relative;
+    color: var(--text-main);
+}
+
+.badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: var(--accent-color);
+    color: white;
+    font-size: 0.7rem;
+    padding: 2px 5px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.user-menu {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.user-name {
+    font-weight: 600;
+}
+
+.logout-btn {
+    color: var(--text-muted);
+}
+
+.logout-btn:hover {
+    color: var(--error);
+}
