@@ -57,6 +57,32 @@ This application provides a streamlined marketplace experience for agricultural 
 ---
 
 ## Project Structure
+Farmer market place ver1/
+│
+├── Backend/ # Server-side application
+│ ├── src/
+│ │ ├── models/ # Database schemas
+│ │ ├── controllers/ # Business logic
+│ │ ├── routes/ # API endpoints
+│ │ └── middleware/ # Auth & validation middleware
+│ │
+│ ├── .env # Backend environment variables
+│ ├── seed.js # Database seeding script
+│ └── package.json
+│
+├── Frontend/ # Client-side application
+│ ├── src/
+│ │ ├── components/ # Reusable UI components
+│ │ ├── pages/ # Application pages
+│ │ ├── services/ # API service handlers
+│ │ └── assets/ # Static files
+│ │
+│ ├── index.html # Application entry point
+│ ├── .env # Frontend environment variables
+│ └── package.json
+│
+└── README.md # Project documentation
+
 
 
 
